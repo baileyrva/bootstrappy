@@ -1,0 +1,59 @@
+body {
+    background: url(https://www.toptal.com/designers/subtlepatterns/patterns/criss-cross.png);
+    color: #777777;
+    background-color: #f1f1f1;
+    min-height: 100%;
+    clear: both;
+    display: flex; 
+    flex-direction: column;
+  }
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 150px;
+    margin-left: 320px;
+}
+
+.wrapper {
+    width: 960px; 
+    padding: 20px; 
+    margin: 0 auto; 
+}
+
+.navbar-header, .active, .navbar-default, .navbar {
+    background-color: white;
+    border: hidden;
+    
+}
+
+.navbar-nav {
+    float: right;
+    margin-right: 150px;
+}
+
+.navbar-brand {
+    float: left; 
+    background-color: #4aaaa5;
+    margin-left: 150px; 
+    color: white;
+ }
+
+ .navbar-expand-xs {
+     width: 1500px;
+ }
+
+.img-responsive {
+    position: relative; 
+    top: -6px; 
+    float: left; 
+     height: 180px;
+     width: 300px; 
+     padding: 10px; 
+ }
+
+.container {
+    font-size: 12px; 
+    background: white; 
+    width: 890px;
+}
