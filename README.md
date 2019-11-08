@@ -4,7 +4,7 @@ This repository ("bootstrappy") is where I (Joe Bailey) develop my portfolio for
 
 Installation
 
-This project is a website designed to be a one stop shop of my work. Feel free to use the headers at the top of the page in order to access different representations of my abilities.
+This project is a website designed to be a one stop shop of my work. The iteration in this repository was to become more familiar with Bootstrap. Feel free to use the headers at the top of the page in order to access different representations of my abilities as of November 16th, 2019.
 
 Credits
 
