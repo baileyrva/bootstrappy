@@ -27,6 +27,16 @@ body {
     
 }
 
+.v {
+    background: #4aaaa5;
+    color: white; 
+}
+
+h4 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+  }
+
 .navbar-nav {
     float: right;
     margin-right: 150px;
