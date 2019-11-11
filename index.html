@@ -4,34 +4,57 @@
     <title>Hello, World!</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./stylesheet.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
-<nav class="navbar navbar-expand-">
-    <div class="container-fluid">
-                        
-    <a class="navbar-brand">Joe Bailey</a>
-                
-    <ul class="nav navbar-nav">
-        <li><a href="index.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        </ul>
-        </div></nav></div>
+<div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <h1 class="navbar-brand">Joe Bailey</h1>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav offset-md-6">
+                    <a class="nav-item nav-link" href="./index.html">About  |</a>
+                    <a class="nav-item nav-link" href="./contact.html">Contact  |</a>
+                    <a class="nav-item nav-link" href="./portfolio.html">Portfolio  |</a>
+                    <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+                </div>
+                </div>
+                </div>
+            </div>
+        </nav>
 <div class="wrapper"> 
     <br>
-    <div class="container">
-            <h4>About Me</h4>
+    <div class="container1">
+        <div class="row">
+            <h4>About Me</h4></div>
             <hr> 
-            <p><img class="img-responsive" img src="./RiverSmall.jpg" alt="Huguenot Flatwater">My name is the two largest words on this page besides about me. That's a weird sentence but introductions are hard...so are 
+            <br>
+            <br>
+        
+        <div class="row">
+            <div class="container col-sm-2">
+                <img src="./RiverSmall.jpg" class="river" alt="River"></div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-6">  
+            <p>My name is the two largest words on this page besides about me. That's a weird sentence but introductions are hard...so are 
                 first impressions. Anyway, I have lived in RVA for just over a decade. I moved here when I was 22 and have loved every minute of it.
                 I truly believe this city will be anything you want it to be. Over the course of my life I have worked many different jobs including but not limited to: 
                 soccer referee, Food Lion cashier, Arby's Roast Beef Sandwich Artist, Subway Sandwich Artist, and a WaWa Sandwich Artist.
                 and that was all before I turned 20. One of the many goals in my life is to write a collection of short stories about a character who tries a different job every year from age 16-80. 
                 If people want to read a story about making different sandwiches at different restaurants I guess I am a soon to be <i>New York Times Bestseller.</i></p>
-                    </div></div></div>
-
+            </div>
+        </div>
+    </div>
+</div>
 </body>
+<footer class="page-footer font-small grey fixed-bottom">
+    <div class="footer-copyright text-center py-3 white"><b>© 2019 Copyright</b>
+    </div>
+        
+      
+</footer>
 </html>
