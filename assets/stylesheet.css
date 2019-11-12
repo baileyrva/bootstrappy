@@ -136,4 +136,14 @@ b {
     border-top: 8px solid #4aaaa5;
     background: #b0bec5;
 }
-@media query at end!
+
+@media (min-width: 576px) {
+
+}
+
+@media (max-width: 600px) { 
+    p {float: left;
+    padding-top: 10px;
+    }
+    img {margin-bottom: 30px;}
+}
