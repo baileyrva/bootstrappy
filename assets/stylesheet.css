@@ -32,7 +32,7 @@ h4 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
-  h6 {
+h6 {
     padding: 7px;
     color: white;
     font-weight: bold;
@@ -53,8 +53,7 @@ h4 {
     color: white !important; 
     padding: 10px; 
     margin-left:305px;
-    margin-bottom: 0px;
-    
+    margin-bottom: 0px;   
  }
 
 .container {
@@ -65,17 +64,18 @@ h4 {
     width: 300px; 
     margin: 15px;
     padding: 10px;
-    margin-right: -10px; 
+    margin-right: 40px; 
+    margin-bottom: 50px;
     margin-top: -25px;
   }
-p {
+
+.bio {
   margin-top: 0;
   margin-bottom: 1rem;
   position: relative;
   bottom: 35px;
 }
   
- 
 .text-block {
     position: absolute;
     width: 113%;
@@ -87,7 +87,7 @@ p {
     text-align: center;
 }
 
-img {
+.port {
     position: relative; 
     top: -6px; 
     height: 184px;
@@ -98,22 +98,27 @@ img {
     margin-top: -25px;
  }
 
- .river {
+ .text {
+     width: 60%;
+     float: left; 
+ }
+ 
+.river {
     position: relative;
     top: 0;
     height: 200px;
-    width: 300;
+    width: 300px;
     margin: 15px;
-    padding: 10px;
+    padding: 20px;
     margin-right: -10px;
     margin-top: -25px;
 }
 
-.container1 {
+.portfolio1 {
     font-size: 12px; 
     background: white; 
     width: 960px;
-    }
+}
 
 .contact {
     position: relative; 
@@ -124,7 +129,7 @@ b {
     font-size: 10px;
 }
 
-.container2 {
+.contact2 {
     font-size: 12px;
     background: white;
     width: 960px;
@@ -134,11 +139,11 @@ b {
 
 .grey {
     border-top: 8px solid #4aaaa5;
-    background: #b0bec5;
+    background: o#b0bec5;
 }
 
-@media (min-width: 576px) {
-
+.side {
+    border-right: 1px solid grey;
 }
 
 @media (max-width: 600px) { 
