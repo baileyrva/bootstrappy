@@ -8,6 +8,11 @@ body {
     flex-direction: column;
   }
 
+.footer-copyright {
+    text-align: center; 
+    color: white; 
+}
+
 .wrapper {
     width: 960px; 
     padding: 20px; 
@@ -139,7 +144,7 @@ b {
 
 .grey {
     border-top: 8px solid #4aaaa5;
-    background: o#b0bec5;
+    background: grey;
 }
 
 .side {
